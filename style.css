@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container styling */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.container div {
+    background-color: dimgrey;
+    border: 1px solid black;
+}
+
+/* Header styling */
+.header {
+    grid-column: 1 / 3;
+}
