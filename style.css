@@ -80,6 +80,18 @@
     grid-template-rows: repeat(2, 1fr);
 }
 
+.sidebar img {
+    width: 40px;
+}
+
+.side-link {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    color: white;
+}
+
 /* Nav styling */
 .nav {
     grid-column: 2 / 3;
