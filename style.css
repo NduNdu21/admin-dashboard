@@ -28,6 +28,49 @@
     border: none;
 }
 
+.logo {
+    display: flex;
+
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.search {
+    display: flex;
+}
+
+.search img {
+    width: 40px;
+}
+
+#searchbar {
+    border-radius: 20px;
+    opacity: 30%;
+    width: 70%;
+}
+
+.pop-up {
+    display: flex;
+
+    align-items: center;
+}
+
+.pop-up img {
+    width: 40px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 60px;
+}
+
 /* Sidebar styling*/
 .sidebar {
     grid-column: 1 / 2;
