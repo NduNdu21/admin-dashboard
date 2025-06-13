@@ -105,10 +105,38 @@
     list-style-type: none;
 }
 
+.details {
+    display: flex;
+
+    align-items: center;
+}
+
+.details img {
+    width: 120px;
+}
+
+
 /* Main content styling*/
 .main-content {
     grid-column: 2 / 3;
 
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.projects {
+    grid-column: 1 / 2;
+}
+
+.announcements {
+    grid-column: 2 / 3;
+}
+
+.trending {
+    grid-column: 2 / 3;
+}
+
+.profile-tag img {
+    width: 60px;
 }
