@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+  
+
 /* Main container styling */
 .container {
     display: grid;
@@ -21,7 +26,7 @@
     width: 100%;
 
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
 .header div {
@@ -32,6 +37,10 @@
     display: flex;
 
     align-items: center;
+}
+
+.logo h1 {
+    font-size: 3rem;
 }
 
 .logo img {
@@ -90,6 +99,11 @@
 
     text-decoration: none;
     color: white;
+    padding: 15px;
+}
+ 
+.side-link p {
+    font-size: 2rem;
 }
 
 /* Nav styling */
