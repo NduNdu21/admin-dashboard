@@ -15,7 +15,7 @@ body {
 }
 
 .container div {
-    background-color: dimgrey;
+    /*background-color: dimgrey;*/
     /*border: 1px solid black;*/
     padding: 15px;
 }
@@ -37,10 +37,12 @@ body {
     display: flex;
 
     align-items: center;
+    background-color: dodgerblue;
 }
 
 .logo h1 {
     font-size: 3rem;
+    color: white;
 }
 
 .logo img {
@@ -91,6 +93,8 @@ body {
 
     display: grid;
     grid-template-rows: repeat(2, 1fr);
+
+    background-color:dodgerblue;
 }
 
 .sidebar img {
@@ -119,6 +123,8 @@ body {
 
     display: grid;
     grid-template-columns: 4fr 3fr;
+
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.5);
 }
 
 .nav .nav-buttons {
@@ -135,10 +141,11 @@ body {
     width: 120px;
     height: 60px;
     border-radius: 35px;
-    align-items: center;
+    padding-top: 15px;
 
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 
 .details {
@@ -167,6 +174,9 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 10px;
+
+    background-color: aliceblue;
 }
 
 .projects {
