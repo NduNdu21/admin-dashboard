@@ -22,6 +22,8 @@ body {
 
 /* ====== Header styling ====== */
 .header {
+    /*height: 150px;*/
+
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -68,11 +70,9 @@ body {
     width: 60px;
 }
 
-/* Sidebar styling*/
+/* ====== Sidebar styling ====== */
 .logo {
     display: flex;
-    top: 15px;
-
     align-items: center;
     background-color: dodgerblue;
 }
@@ -80,35 +80,36 @@ body {
 .logo h1 {
     font-size: 3rem;
     color: white;
+    margin-left: 10px;
 }
 
 .logo img {
-    width: 80px;
+    width: 100px;
 }
 
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 4;
-
     display: grid;
     grid-template-rows: 1fr repeat(2, 2fr);
-
     background-color:dodgerblue;
 }
 
 .sidebar img {
     width: 50px;
-
     margin-right: 20px;
 }
 
 .side-link {
     display: flex;
     align-items: center;
-
     text-decoration: none;
     color: white;
     padding: 15px;
+}
+
+.side-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
  
 .side-link p {
