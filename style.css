@@ -23,8 +23,6 @@ body {
 /* ====== Header styling ====== */
 .header {
     grid-column: 2 / 3;
-    width: 100%;
-
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
@@ -35,7 +33,6 @@ body {
 
 .search {
     display: flex;
-
     align-items: center;
 }
 
@@ -46,15 +43,16 @@ body {
 
 #searchbar {
     border-radius: 40px;
-    opacity: 30%;
+    opacity: 0.3;
     width: 70%;
     height: 50px;
+    border: 1px solid #ccc;
 }
 
 .pop-up {
     display: flex;
-
     align-items: center;
+    gap: 20px;
 }
 
 .pop-up img {
