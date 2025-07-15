@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,19 +9,18 @@ body {
 }
   
 
-/* Main container styling */
+/* ====== Main container styling ====== */
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    min-height: 100vh;
 }
 
-.container div {
-    /*background-color: dimgrey;*/
-    /*border: 1px solid black;*/
+.container > div {
     padding: 15px;
 }
 
-/* Header styling */
+/* ====== Header styling ====== */
 .header {
     grid-column: 2 / 3;
     width: 100%;
