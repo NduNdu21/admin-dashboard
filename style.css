@@ -212,6 +212,16 @@ body {
 
 .announcements {
     grid-row: 1 / 2;
+    padding: 50px;
+}
+
+.announcement {
+    border-bottom: 2px solid grey;
+    padding: 20px;
+}
+
+.announcement:hover {
+    transform: translateY(-2px);
 }
 
 .trending {
