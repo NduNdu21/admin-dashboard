@@ -212,7 +212,7 @@ body {
 
 .announcements {
     grid-row: 1 / 2;
-    padding: 50px;
+    padding: 30px 50px;
 }
 
 .announcement {
@@ -226,6 +226,19 @@ body {
 
 .trending {
     grid-row: 2 / 3;
+    display: grid;
+    padding: 40px;
+    gap: 20px;
+}
+
+.profile-tag {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-tag > p {
+    font-size: 1.25rem;
 }
 
 .profile-tag img {
